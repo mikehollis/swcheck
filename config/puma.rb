@@ -1,4 +1,4 @@
-threads 0,8
+threads 0,2
 workers 2
 preload_app!
 
