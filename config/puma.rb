@@ -1,5 +1,5 @@
-threads 0,2
-workers 2
+threads 0,ENV['PUMA_THREADS_MAX']
+workers ENV['PUMA_WORKERS_COUNT']
 preload_app!
 
 rackup      DefaultRackup
