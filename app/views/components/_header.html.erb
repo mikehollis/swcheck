@@ -27,9 +27,6 @@
         <%= render 'components/dropdown' %>
       </div>
     <% else %>
-      <div class="Header-action Header-action--only-iphone6">
-        <%= link_to 'Register', new_user_registration_path, class: 'Header-login' %>
-      </div>
       <div class="Header-action">
         <%= link_to 'Login', new_user_session_path, class: 'Header-login' %>
       </div>
